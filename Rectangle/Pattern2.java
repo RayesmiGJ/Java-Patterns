@@ -1,3 +1,4 @@
+package Rectangle;
 import java.util.*;
 
 public class Pattern2 {
@@ -18,3 +19,14 @@ public class Pattern2 {
      }
     }
 }
+
+/*
+  Output:
+  Enter no of rows:
+5
+*****
+*   *
+*   *
+*   *
+*****
+ */
