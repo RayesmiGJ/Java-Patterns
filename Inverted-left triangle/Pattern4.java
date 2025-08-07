@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Pattern1 {
+public class Pattern4 {
     public static void main(String R[]) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no of rows:");
@@ -10,7 +10,12 @@ public class Pattern1 {
                 System.out.print(" ");
             }
             for(int j=1;j<=i;j++){
-                 System.out.print("*");
+                 if(i==j||i==n||j==1){
+                    System.out.print("*");
+                 }
+                 else{
+                    System.out.print(" ");
+                 }
                            }
            
             System.out.println();
@@ -23,8 +28,8 @@ public class Pattern1 {
  Enter no of rows:
 5
 *****
- ****
-  ***
+ *  *
+  * *
    **
     *
  */
